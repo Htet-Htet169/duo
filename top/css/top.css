@@ -1,0 +1,138 @@
+/*main*/
+
+.section {
+    background-color: #fff;
+    box-shadow: 3px 3px 9px 1px #c2c2c2;
+    margin-top: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.section h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#main .txtcolor {
+    margin-bottom: 16px;
+    padding-top: 10px;
+    color: #66b2e0;
+    font-style: italic;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.btn {
+    float: right;
+    display: block;
+    background-image: url("../images/bg_02.png");
+    background-repeat: repeat;
+    width: 119px;
+    height: 17px;
+    margin-top: -60px;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+
+.btn p {
+    font-weight: bold;
+}
+
+.new_list li {
+    border-bottom: 1px dotted #cacaca;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.new_list li.bottomnone {
+    border-bottom: none;
+}
+
+.column {
+    width: 710px;
+}
+
+.section .col {
+    width: 233px;
+    float: left;
+}
+
+.section .col img {
+    padding-bottom: 10px;
+}
+
+.col .copy {
+    line-height: 16px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+ul.new_list.bddotted {
+    border-top: 1px dotted #cacaca;
+    margin-top: 7px;
+}
+
+/*main*/
+
+/* sidebar */ 
+
+#sidebar {
+    width: 230px;
+    float: right;
+    display: block;
+    margin-top: 20px;
+}
+
+#sidebar img {
+    margin-bottom: 13px;
+}
+
+
+
+/*For responsive*/
+
+@media(max-width: 1000px) {
+    .inner {
+        width: 100%;
+    }
+
+    #mainvisual img {
+        width: 100%;
+    }
+
+    #main {
+        width: 100%;
+    }
+}
+
+
+
+@media(max-width: 767px) {
+    #mainvisual img {
+        width: 100%;
+    }
+
+    #main {
+        width: 100%;
+    }
+
+    .section .column {
+        width: 100%;
+    }
+
+    .section .col {
+        width: 100%;
+        float: none;
+    }
+
+    .section .col img {
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    .borderdotted {
+        width: 100%;
+    }
+}
